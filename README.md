@@ -16,7 +16,7 @@ Notes:
     <li><b>Partitions:</b> one topic can be divided into multiple partitions can be shared to consumers of same group</li>
     <li><b>Key:</b> any unique identifier to identify your message</li>
     <li><b>Message:</b> any unique identifier to identify your message</li>
-<ul>
+</ul>
 
 <article>
 Multiple instance of same service must have same consumer group id, whereas different services must have different consumer group id to receive messages.
